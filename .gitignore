@@ -1,0 +1,47 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+*.egg
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Checkpoint and weights
+checkpoint/
+*.pth
+*.pt
+*.ckpt
+pretrained/
+
+# Dataset
+COD10K/
+CODData/
+train/
+test/
+val/
+datasets/
+*.jpg
+*.png
+!README.md
+
+# Results
+results/
+output/
+logs/
+wandb/
+
+# System
+.DS_Store
+Thumbs.db
+*.tmp
+
+# Jupyter
+.ipynb_checkpoints/
